@@ -4323,6 +4323,15 @@ Text Label 2500 5250 0    50   ~ 0
 O2
 Text Label 2500 5350 0    50   ~ 0
 O3
+$Sheet
+S 3250 5050 900  600 
+U 60FFC927
+F0 "U5 ALC Architechture" 50
+F1 "AL_Controller.sch" 50
+$EndSheet
+NoConn ~ 3100 5500
+Text Notes 11500 600  0    50   ~ 0
+CRITICAL FLAW: THESE REGISTERS NEED TO BE TIED LOW NOT HIGH
 Wire Bus Line
 	8800 4150 8800 4350
 Wire Bus Line
@@ -4387,10 +4396,4 @@ Wire Bus Line
 	6000 2950 6000 4650
 Wire Bus Line
 	4600 7900 4600 8800
-$Sheet
-S 3250 5050 900  600 
-U 60FFC927
-F0 "U5 ALC Architechture" 50
-F1 "AL_Controller.sch" 50
-$EndSheet
 $EndSCHEMATC
